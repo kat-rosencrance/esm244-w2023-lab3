@@ -238,6 +238,8 @@ blr_tidy_cv_f2 <- blr_tidy_wf2 %>%
   fit_resamples(tidy_folds)
 
 collect_metrics(blr_tidy_cv_f2)
+
+#higher roc_auc better model!
 ```
 ## Area under the curve
 ```{r}
